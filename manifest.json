@@ -1,27 +1,25 @@
 {
-  "update_url": "https://clients2.google.com/service/update2/crx",
   "manifest_version": 2,
   "version": "1.0.0",
   "name": "tokyo-night-dark",
   "description": "Tokyo Night Dark theme for Chrome",
-  "icons": {
-    "32": "logo-32.png",
-    "256": "logo-256.png"
-  },
   "theme": {
     "colors": {
       "frame": [8, 8, 11],
       "frame_incognito": [8, 8, 11],
-      "frame_inactive": [36, 40, 59],
+      "frame_inactive": [8, 8, 11],
       "frame_incognito_inactive": [36, 40, 59],
       "toolbar": [8, 8, 11],
       "toolbar_field": [36, 40, 59],
       "toolbar_field_text": [120, 124, 153],
       "toolbar_field_border_focus": [122, 162, 247],
       "toolbar_field_highlight": [122, 162, 247],
+      "omnibox_text": [255, 255, 255],
       "omnibox_background": [36, 40, 59],
-      "ntp_text": [120, 124, 153],
-      "ntp_background": [8, 8, 11],
+      "omnibox_expanded_background": [8, 8, 11],
+      "ntp_text": [230, 230, 230],
+      "ntp_background": [12, 12, 15],
+      "ntp_link": [120, 124, 153],
       "icons": [120, 124, 153],
       "popup": [8, 8, 11],
       "popup_highlight": [122, 162, 247],
@@ -30,7 +28,9 @@
       "sidebar_highlight": [122, 162, 247],
       "sidebar_highlight_text": [254, 254, 254],
       "tab_background_text": [120, 124, 153],
-      "tab_text": [255, 255, 255]
-    }
+      "tab_text": [255, 255, 255],
+      "bookmark_text": [120, 124, 153]
+    },
+    "tints": { "buttons": [0, 0, 0.75] }
   }
 }
